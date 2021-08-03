@@ -27,8 +27,12 @@ DATADIR='datadir'
 git clone --quiet $REPO $BUILD_DIR
 git -C $BUILD_DIR submodule update --init --recursive
 
+ls -l $BUILD_DIR/src
+
 cd $BUILD_DIR
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
+
+ls -l $BUILD_DIR/src
 
 cd $CWD
 # Clean out existing contents
@@ -62,7 +66,8 @@ for b in $(cat .github/config.json | .github/jq -c .branchmap[]); do
     # Do our repo build
     plugin_sources=''
     for d in "$SOURCES_DIR/$name/src/"* ; do
-        ls -la "$d"
+        echo "$d"
+        ls -l "$d"
         if [ -d "$d" ]; then
             if [ ! -z "$plugin_sources" ]; then
                 # Append a space
