@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.lukavia.lukav-kodi-repo" name="lukavia/lukav-kodi-repo Repository" version="1.0.1" provider-name="lukavia">
+    <extension point="xbmc.addon.repository">
+        
+        <dir minversion="17.0.0">
+            <info compressed="false">https://lukavia.github.io/lukav-kodi-repo/master/addons.xml</info>
+            <checksum>https://lukavia.github.io/lukav-kodi-repo/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://lukavia.github.io/lukav-kodi-repo/master/datadir/</datadir>
+        </dir>
+
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">A personal Kodi addon repository from https://github.com/lukavia/lukav-kodi-repo</summary>
+        <description lang="en_GB"></description>
+        <language></language>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <forum></forum>
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart></fanart>
+        </assets>
+    </extension>
+</addon>

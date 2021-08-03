@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="plugin.video.mtelnow" name="A1 Xplore TV GO" provider-name="Johnie" version="2.1.0">
+  <requires>
+    <import addon="inputstream.adaptive" version="2.1.0" />
+    <import addon="script.module.inputstreamhelper" version="0.3.3" />
+    <import addon="script.module.pytz" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>https://a1xploretv.bg</summary>
+    <description lang="bg">Преди употреба, въведете акаунта си в настройките!</description>
+    <description lang="en">Before use, set your account in the addon settings!</description>
+    <disclaimer lang="en">This is not an official addon! If the official APP is available for your platform, use it instead of this addon. All rights on content are reserved by A1 Bulgaria.</disclaimer>
+  	<disclaimer lang="bg">Това не е официална приставка! Ако официално приложение е достъпно за вашата платформа, използвайте него вместо тази приставка. Всички права върху съдържанието са запазени от A1 България.</disclaimer>
+    <platform>all</platform>
+	<assets>
+	   <icon>resources/icon.png</icon>
+     <fanart>resources/fanart.jpg</fanart>
+	</assets>
+  </extension>
+</addon><addon id="repository.lukavia.lukav-kodi-repo" name="lukavia/lukav-kodi-repo Repository" provider-name="lukavia" version="1.0.1">
+    <extension point="xbmc.addon.repository">
+        
+        <dir minversion="17.0.0">
+            <info compressed="false">https://lukavia.github.io/lukav-kodi-repo/master/addons.xml</info>
+            <checksum>https://lukavia.github.io/lukav-kodi-repo/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://lukavia.github.io/lukav-kodi-repo/master/datadir/</datadir>
+        </dir>
+
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">A personal Kodi addon repository from https://github.com/lukavia/lukav-kodi-repo</summary>
+        <description lang="en_GB" />
+        <language />
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <forum />
+        <source />
+        <news />
+        <disclaimer />
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart />
+        </assets>
+    </extension>
+</addon></addons>

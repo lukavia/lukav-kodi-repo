@@ -1,0 +1,3 @@
+[submodule "src/plugin.video.mtelnow"]
+	path = src/plugin.video.mtelnow
+	url = https://github.com/lukavia/plugin.video.mtelnow.git
