@@ -61,8 +61,6 @@ for b in $(cat .github/config.json | .github/jq -c .branchmap[]); do
     # Do our repo build
     plugin_sources=''
     for d in "$SOURCES_DIR/$name/src/"* ; do
-        echo "$d"
-        ls -l "$d"
         if [ -d "$d" ]; then
             if [ ! -z "$plugin_sources" ]; then
                 # Append a space
