@@ -25,7 +25,7 @@ REPO_NAME=$(echo "$TRAVIS_REPO_SLUG" | grep -Eo '([^/]+)$')
 DATADIR='datadir'
 
 git clone --quiet $REPO $BUILD_DIR
-git -C $REPO submodule update --init --recursive
+git -C $BUILD_DIR submodule update --init --recursive
 
 cd $BUILD_DIR
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
