@@ -25,6 +25,7 @@ REPO_NAME=$(echo "$TRAVIS_REPO_SLUG" | grep -Eo '([^/]+)$')
 DATADIR='datadir'
 
 git clone --quiet $REPO $BUILD_DIR
+git -C $REPO submodule update --init --recursive
 
 cd $BUILD_DIR
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
@@ -61,6 +62,7 @@ for b in $(cat .github/config.json | .github/jq -c .branchmap[]); do
     # Do our repo build
     plugin_sources=''
     for d in "$SOURCES_DIR/$name/src/"* ; do
+        ls -la "$d"
         if [ -d "$d" ]; then
             if [ ! -z "$plugin_sources" ]; then
                 # Append a space
