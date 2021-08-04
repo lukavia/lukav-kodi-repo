@@ -12,7 +12,7 @@ env:
     - COMMIT_AUTHOR_EMAIL: "lukav@lukav.com"
 
 script:
-  - bash -x .github/build.sh
+  - bash .github/build.sh
 
 branches:
   only:
