@@ -6,8 +6,8 @@ The following addons are available here:
 
 [__master__](master/addons.xml) (Kodi ver. 17.0.0):
 
-- [__A1 Xplore TV GO__](master/datadir/plugin.video.mtelnow/plugin.video.mtelnow-2.2.2.zip) plugin.video.mtelnow v2.2.2
+- [__A1 Xplore TV GO__](master/datadir/plugin.video.mtelnow/plugin.video.mtelnow-2.2.3.zip) plugin.video.mtelnow v2.2.3
 - [__lukavia/lukav-kodi-repo Repository__](master/datadir/repository.lukavia.lukav-kodi-repo/repository.lukavia.lukav-kodi-repo-1.0.1.zip) repository.lukavia.lukav-kodi-repo v1.0.1
 
 ----
-_Generated with [instant-kodi-repo](https://github.com/ping/instant-kodi-repo/) from_ [``b78e46e``](https://github.com/lukavia/lukav-kodi-repo/commit/b78e46ed0208c68a7e02d92ffcbc9ac70dca1f01)
+_Generated with [instant-kodi-repo](https://github.com/ping/instant-kodi-repo/) from_ [``ef8512f``](https://github.com/lukavia/lukav-kodi-repo/commit/ef8512fa6651a3db3aef6294e7baa36b311a4c27)
