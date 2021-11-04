@@ -10,4 +10,4 @@ The following addons are available here:
 - [__lukavia/lukav-kodi-repo Repository__](master/datadir/repository.lukavia.lukav-kodi-repo/repository.lukavia.lukav-kodi-repo-1.0.1.zip) repository.lukavia.lukav-kodi-repo v1.0.1
 
 ----
-_Generated with [instant-kodi-repo](https://github.com/ping/instant-kodi-repo/) from_ [``7e11786``](https://github.com/lukavia/lukav-kodi-repo/commit/7e1178657b7541e1f7ca1c1a34ac2723f0fe4e9f)
+_Generated with [instant-kodi-repo](https://github.com/ping/instant-kodi-repo/) from_ [``c2052bd``](https://github.com/lukavia/lukav-kodi-repo/commit/c2052bd36648eab12bec1c5af52d1c0d52946445)
