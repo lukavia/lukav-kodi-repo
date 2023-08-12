@@ -19,7 +19,7 @@ REPO_NAME=$(echo ${REPO} | grep -Eo '([^/]+)$' | cut -d. -f 1)
 
 DATADIR='datadir'
 
-rm -rf $BUILD_DIR
+rm -rf ${BUILD_DIR} ${SOURCES_DIR}
 git clone --quiet $REPO $BUILD_DIR
 
 cd $BUILD_DIR
