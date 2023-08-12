@@ -80,7 +80,7 @@ cd ${BUILD_DIR}
 #git config user.name "Travis CI"
 #git config user.email "$COMMIT_AUTHOR_EMAIL"
 
-if git diff ; then
+if git diff --quiet; then
     echo "No changes to the output on this push; exiting."
     exit 0
 fi
