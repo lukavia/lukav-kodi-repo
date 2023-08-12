@@ -1,2 +1,5 @@
 deploy_key
 deploy_key.pub
+.build/
+.sources/
+.github/create_repository.py
