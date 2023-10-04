@@ -29,7 +29,7 @@ These instructions will be a 100x easier if you have a basic understanding of Gi
 
 1. Generate a GitHub deploy key
     ```
-    ssh-keygen -q -t rsa -b 4096 -C 'put-your-repo-name-here' -f deploy_key -N ''
+    ssh-keygen -q -t ed25519 -C 'put-your-repo-name-here' -f deploy_key -N ''
     ```
     If successful, you will see 2 files ``deploy_key`` and ``deploy_key.pub`` in the folder.
 
