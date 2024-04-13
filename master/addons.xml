@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.mtelnow" name="A1 Xplore TV GO" provider-name="Lukav &gt; Johnie" version="2.2.16">
+<addons><addon id="plugin.video.mtelnow" name="A1 Xplore TV GO" version="2.2.17" provider-name="Lukav &gt; Johnie">
   <requires>
     <import addon="inputstream.adaptive" version="2.1.0" />
     <import addon="script.module.inputstreamhelper" version="0.3.3" />
     <import addon="script.module.pytz" />
     <import addon="script.module.requests" />
   </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+  <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
@@ -21,7 +21,7 @@
      <fanart>resources/fanart.jpg</fanart>
 	</assets>
   </extension>
-</addon><addon id="repository.lukavia.lukav-kodi-repo" name="lukavia/lukav-kodi-repo Repository" provider-name="lukavia" version="1.0.1">
+</addon><addon id="repository.lukavia.lukav-kodi-repo" name="lukavia/lukav-kodi-repo Repository" version="1.0.1" provider-name="lukavia">
     <extension point="xbmc.addon.repository">
         
         <dir minversion="17.0.0">
